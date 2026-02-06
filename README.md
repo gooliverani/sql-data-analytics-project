@@ -1,6 +1,6 @@
 # 📊 SQL Data Analytics Project
 
-A comprehensive collection of SQL scripts for data exploration, analytics, and reporting on a data warehouse. This project demonstrates various analytical techniques including magnitude analysis, ranking, time-series analysis, and customer/product segmentation.
+A comprehensive collection of SQL scripts for data exploration, analytics, and reporting on a data warehouse. This project demonstrates various analytical techniques including magnitude analysis, ranking, change over time, and cumulative analysis.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -23,7 +23,7 @@ A comprehensive collection of SQL scripts for data exploration, analytics, and r
 
 ## 🎯 Overview
 
-This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. The project implements a **star schema** data warehouse model with fact and dimension tables, enabling efficient analytical queries for business intelligence.
+This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. The project implements a **star schema** data warehouse model with fact and dimension tables.
 
 **Use Cases:**
 - Sales performance analysis
@@ -319,6 +319,17 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 - [SQL Server Documentation](https://docs.microsoft.com/en-us/sql/)
 - [Window Functions Guide](https://docs.microsoft.com/en-us/sql/t-sql/queries/select-over-clause-transact-sql)
 - [Data Warehousing Concepts](https://en.wikipedia.org/wiki/Data_warehouse)
+
+---
+
+## 🙏 Acknowledgments
+
+This project is part of the comprehensive SQL course by **DataWithBaraa**. Special thanks to Baraa for creating excellent educational content on data analytics and SQL!
+
+**Connect with DataWithBaraa:**
+- 🎥 [YouTube Channel](https://www.youtube.com/@DataWithBaraa)
+- 🌐 [Website](https://www.datawithbaraa.com/)
+- 💻 [GitHub](https://github.com/DataWithBaraa)
 
 ---
 
