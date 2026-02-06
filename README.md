@@ -6,6 +6,18 @@ A comprehensive collection of SQL scripts for data exploration, analytics, and r
 
 ---
 
+## 🔗 Project Relationship
+
+This project is a **companion analytics extension** of the [sql-data-warehouse-project](https://github.com/gooliverani/sql-data-warehouse-project). It demonstrates how to perform advanced data analytics and reporting on warehouse data.
+
+**Key Points:**
+- 📦 **Builds upon**: This project extends the foundational data warehouse created in the `sql-data-warehouse-project`
+- 🔄 **Data Source Options**: You can either use the data from the existing data warehouse project (recommended) or use the CSV files provided in this repository
+- 🎯 **Purpose**: Demonstrates practical analytics, reporting, and business intelligence techniques on warehouse data
+- 🔗 **Prerequisite**: For best results, first complete the [sql-data-warehouse-project](https://github.com/gooliverani/sql-data-warehouse-project) to understand the data warehouse foundation
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -23,7 +35,9 @@ A comprehensive collection of SQL scripts for data exploration, analytics, and r
 
 ## 🎯 Overview
 
-This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. The project implements a **star schema** data warehouse model with fact and dimension tables.
+This is a **companion analytics project** that demonstrates how to perform comprehensive data analysis and reporting on a data warehouse. This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. The project implements a **star schema** data warehouse model with fact and dimension tables.
+
+**This project demonstrates analytics on the warehouse data created in the [sql-data-warehouse-project](https://github.com/gooliverani/sql-data-warehouse-project).**
 
 **Use Cases:**
 - Sales performance analysis
@@ -166,8 +180,36 @@ sql-data-analytics-project/
 - Microsoft SQL Server (2016 or later recommended for `DATETRUNC()` support)
 - SQL Server Management Studio (SSMS) or Azure Data Studio
 - Basic understanding of SQL and data warehousing concepts
+- **Recommended**: Complete the [sql-data-warehouse-project](https://github.com/gooliverani/sql-data-warehouse-project) first to set up the foundational data warehouse
 
-### Installation Steps
+### Data Source Options
+
+You have **two options** for working with this project:
+
+#### ✅ **Option 1: Use Data from the Data Warehouse Project (Recommended)**
+
+This is the recommended approach as it demonstrates the full end-to-end workflow from data warehouse creation to analytics.
+
+1. **Complete the data warehouse project first**
+   - Clone and follow the setup instructions at [sql-data-warehouse-project](https://github.com/gooliverani/sql-data-warehouse-project)
+   - This creates the `DataWarehouseAnalytics` database with all necessary tables and data
+
+2. **Clone this analytics repository**
+   ```bash
+   git clone https://github.com/gooliverani/sql-data-analytics-project.git
+   cd sql-data-analytics-project
+   ```
+
+3. **Run the analysis scripts directly**
+   - Since the database and data already exist from the warehouse project, you can directly execute the analysis scripts in the `scripts/` folder
+   - Start with `01_database_exploration.sql` and progress through the numbered scripts
+
+4. **Create analytical views**
+   - Run `12_report_customers.sql` and `13_report_products.sql` to create comprehensive report views
+
+#### 🔄 **Option 2: Use the CSV Files in This Repository**
+
+If you want to work standalone without the data warehouse project, you can load data from the included CSV files.
 
 1. **Clone the repository**
    ```bash
