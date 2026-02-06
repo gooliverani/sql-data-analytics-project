@@ -69,7 +69,7 @@ sql-data-analytics-project/
 ├── docs/              # Documentation files
 ├── scripts/           # SQL scripts organized by analysis type
 │   ├── 00_init_database.sql
-│   ├── 001_dimensions&measures.sql
+│   ├── 001_ dimensions&measures.sql
 │   ├── 01_database_exploration.sql
 │   ├── 04_measures_exploration.sql
 │   ├── 05_magnitude_analysis.sql
@@ -91,7 +91,7 @@ sql-data-analytics-project/
 - Inspect table schemas and column definitions
 - Use `INFORMATION_SCHEMA` views
 
-### 2. **Dimensions & Measures** (`001_dimensions&measures.sql`)
+### 2. **Dimensions & Measures** (`001_ dimensions&measures.sql`)
 - Understand the difference between dimensions and measures
 - Identify which fields are aggregatable
 
